@@ -42,7 +42,7 @@ p {
 
 .section-title {
   font-size: 4rem;
-  font-weight: 300;
+  font-weight: 500;
   color: black;
   margin-bottom: 10px;
   text-transform: uppercase;
@@ -52,7 +52,7 @@ p {
 
 .section-title span {
   color: rgb(196, 0, 196);
-  font-weight: 500;
+  font-weight: 700;
 }
 
 .cta {
@@ -320,6 +320,10 @@ p {
 #services .service-top {
   max-width: 500px;
   margin: 0 auto;
+}
+
+#services .service-top p {
+  font-weight: 400;
 }
 
 #services .service-bottom {
