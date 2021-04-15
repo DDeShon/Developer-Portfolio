@@ -356,6 +356,7 @@ p {
   color: white;
   font-size: 2rem;
   margin-bottom: 10px;
+  text-align: left;
   text-transform: uppercase;
 }
 
@@ -616,6 +617,7 @@ textarea {
 
   /* Services Section */
   #services .service-bottom .service-item {
+    min-height: 420px;
     flex-basis: 45%;
     margin: 1.5%;
   }
@@ -716,6 +718,7 @@ textarea {
 
   /*  Services Section  */
   #services .service-bottom .service-item {
+    min-height: 500px;
     flex-basis: 22%;
     margin: 1.5%;
   }
