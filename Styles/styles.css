@@ -413,7 +413,7 @@ p {
   flex-direction: column;
   background-color: rgb(32, 32, 32);
   color: white;
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 #projects .project-info h2 {
@@ -429,16 +429,15 @@ p {
   flex-basis: 50%;
   height: 100%;
   width: 100%;
-  /* overflow: hidden;
-  position: relative; */
+  overflow: hidden;
+  position: relative;
 }
 
 #projects .project-img img {
-  /* background-color: rgb(32, 32, 32); */
   height: 100%;
   width: 100%;
   object-fit: fill;
-  border-radius: 40px;
+  border-radius: 10px;
 }
 
 #projects .project-img:after {
