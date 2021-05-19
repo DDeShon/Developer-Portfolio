@@ -342,12 +342,12 @@ p {
 .darkmode #about .col-right p,
 .darkmode #contact h1,
 .darkmode #contact form label {
-  color: white;
+  color: rgb(190, 190, 190);
 }
 
 .darkmode #services .service-item,
 .darkmode #projects .project-info {
-  background-color: rgb(210, 210, 210);
+  background-color: rgb(190, 190, 190);
 }
 
 .darkmode #services .service-item h2,
