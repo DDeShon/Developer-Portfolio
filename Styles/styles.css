@@ -564,6 +564,7 @@ p {
 
 #contact form input,
 textarea {
+  width: 100%;
   box-shadow: 2px 2px rgb(196, 0, 196, 0.4);
 }
 
