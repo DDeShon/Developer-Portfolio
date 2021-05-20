@@ -10,6 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
       rel="stylesheet"
     />
+    <script defer src="./scripts/app.js"></script>
+    <!-- <script defer src="/scripts/contact.js"></script> -->
     <title>My Portfolio</title>
   </head>
   <body>
@@ -258,10 +260,14 @@
       <div class="contact container">
         <h1 class="section-title">Contact <span>Me</span></h1>
         <div class="form-wrapper">
-          <form action="">
+          <form
+            method="POST"
+            action="contactform.php"
+            enctype="multipart/form-data"
+          >
             <p>
               <label for="Name">Name:</label>
-              <input type="text" name="name" />
+              <input type="text" name="name" required />
             </p>
             <p>
               <label for="company">Company:</label>
@@ -269,18 +275,23 @@
             </p>
             <p>
               <label for="email">Email Address:</label>
-              <input type="email" name="email" />
+              <input type="email" name="email" required />
             </p>
             <p>
-              <label for="phone">Phone Number:</label>
-              <input type="text" name="phone" />
+              <label for="subject">Subject:</label>
+              <input type="text" name="subject" required />
             </p>
             <p>
               <label for="message">Message:</label>
-              <textarea name="message" rows="5"></textarea>
+              <textarea
+                type="hidden"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
             </p>
             <p>
-              <a href="#" type="submit" class="cta">Submit</a>
+              <input type="submit" class="cta" value="Submit" />
             </p>
           </form>
         </div>
@@ -318,6 +329,6 @@
       </div>
     </section>
     <!--  End of Footer Section  -->
-    <script src="./app.js"></script>
+    }
   </body>
 </html>
