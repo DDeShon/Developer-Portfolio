@@ -486,7 +486,7 @@ p {
 #projects .project-img img {
   height: 515px;
   width: 100%;
-  object-fit: contain;
+  object-fit: fill;
   border-radius: 10px;
 }
 
