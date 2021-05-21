@@ -1,6 +1,6 @@
 <?php 
 
-if(isset($_POST['email'])) {
+if(isset($_POST['submit'])) {
     $name = $_POST['name'];
     $company = $_POST['company'];
     $emailFrom = $_POST['email'];
@@ -13,7 +13,7 @@ if(isset($_POST['email'])) {
     $txt = "You have received an email from ".$name.".\n\n".$message;
 
     mail($emailTo, $subject, $txt);
-    // console.log($emailTo, $subject, $txt);
+    
     header("Location: index.php");
 }
 
