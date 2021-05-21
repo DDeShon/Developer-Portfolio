@@ -457,7 +457,7 @@ p {
 #projects .project-info {
   padding: 30px;
   flex-basis: 50%;
-  height: 515px;
+  height: 500px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -478,13 +478,13 @@ p {
 
 #projects .project-img {
   flex-basis: 50%;
-  height: 100%;
+  height: 500px;
   width: 100%;
   overflow: hidden;
 }
 
 #projects .project-img img {
-  height: 515px;
+  height: 100%;
   width: 100%;
   object-fit: fill;
   border-radius: 10px;
@@ -693,7 +693,7 @@ textarea {
   }
 
   #projects .all-projects .project-img {
-    height: 100%;
+    height: 400px;
   }
   /* End of Projects Section */
 
