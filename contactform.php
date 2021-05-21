@@ -12,7 +12,7 @@ if(isset($_POST['submit'])) {
     $subject = "New Request";
     $txt = "You have received an email from ".$name.".\n\n".$message;
 
-    mail($emailTo, $subject, $txt);
+    mail($emailTo, $subject, $txt, $headers);
     
     header("Location: index.html");
 }
