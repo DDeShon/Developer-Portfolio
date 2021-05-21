@@ -457,7 +457,7 @@ p {
 #projects .project-info {
   padding: 30px;
   flex-basis: 50%;
-  height: 500px;
+  height: 515px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -484,7 +484,7 @@ p {
 }
 
 #projects .project-img img {
-  height: 500px;
+  height: 515px;
   width: 100%;
   object-fit: fill;
   border-radius: 10px;
