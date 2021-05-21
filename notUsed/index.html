@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="Styles/styles.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="./scripts/app.js"></script>
+    <title>My Portfolio</title>
+  </head>
+  <body>
+    <!--  Header  -->
+    <section id="header">
+      <div class="header container">
+        <div class="nav-bar">
+          <div class="brand">
+            <a href="#hero"
+              ><h1><span>D</span>amon <span>D</span>eShon</h1></a
+            >
+          </div>
+          <div class="nav-list">
+            <div class="hamburger"><div class="bar"></div></div>
+            <ul>
+              <li><a href="#hero" data-after="Home">Home</a></li>
+              <li><a href="#services" data-after="Services">Services</a></li>
+              <li><a href="#projects" data-after="Projects">Projects</a></li>
+              <li><a href="#about" data-after="About">About</a></li>
+              <li><a href="#contact" data-after="Contact">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  End of Header  -->
+    <!--  Hero Section  -->
+    <section id="hero">
+      <div class="hero container">
+        <div>
+          <h1>Hello, <span></span></h1>
+          <h1>My Name Is <span></span></h1>
+          <h1>Damon <span></span></h1>
+          <a href="#projects" type="button" class="cta">Portfolio</a>
+        </div>
+      </div>
+    </section>
+    <!--  End of Hero Section  -->
+
+    <!-- Dark Mode Toggle -->
+    <section id="dark-mode-toggle">
+      <div class="toggle-container">
+        <button
+          id="dark-mode-toggle"
+          class="dark-mode-toggle"
+          aria-label="toggle dark mode"
+        ></button>
+      </div>
+    </section>
+    <!-- End of Dark Mode Toggle -->
+
+    <!--  Services Section  -->
+    <section id="services">
+      <div class="services container">
+        <div class="service-top">
+          <h1 class="section-title">Services</h1>
+          <p>
+            This section highlights some of the different services and products
+            that I offer. If there are any additional services that you are
+            interested in, please contact me below with inquiries.
+          </p>
+        </div>
+        <div class="service-bottom">
+          <div class="service-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/nolan/64/web.png" />
+            </div>
+            <h2>Web Developer</h2>
+            <p>
+              I have experience creating fully responsive and professional
+              looking websites that look great on all screen sizes, from mobile
+              to PC. I am proficient at using HTML, CSS and JavaScript to
+              produce visually stunning landing pages and content to draw
+              traffic to your website and keep users engaged.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/nolan/64/database.png" />
+            </div>
+            <h2>Database Administrator</h2>
+            <p>
+              I have experience as a Database Administrator, able to create a
+              database using one of several technologies (SQL, MySQL,
+              PostgreSQL, MongoDB). I can pair the database with a front-end
+              interface to provide functionality as a customer management system
+              or as an inventory management system.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/nolan/64/software-box.png" />
+            </div>
+            <h2>Software Engineer</h2>
+            <p>
+              I have expert level experience creating stand-alone applications
+              and mobile applications using a variety of programming languages,
+              including Python, Java, C# and C++.
+            </p>
+          </div>
+          <div class="service-item">
+            <div class="icon">
+              <img src="https://img.icons8.com/nolan/64/web-analystics.png" />
+            </div>
+            <h2>Search Engine Optimization</h2>
+            <p>
+              I excel at optimizing your web content to provide the highest
+              search engine results possible. Having your site optimized for
+              search engines will help to draw traffic to your website and can
+              increase user interaction.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  End of Services Section  -->
+
+    <!--  Projects Section  -->
+    <section id="projects">
+      <div class="projects container">
+        <div class="projects-header">
+          <h1 class="section-title">Recent <span>Projects</span></h1>
+        </div>
+        <div class="all-projects">
+          <div class="project-item">
+            <div class="project-info">
+              <h2>Responsive Weather App</h2>
+              <p>
+                Mobile responsive weather application that allows the user to
+                find the current weather and six day forecast for their current
+                location. The user is able to search for other locations based
+                on City, State, Country or ZIP code. The user can save a
+                location as their home location, load their home location and
+                change the measurement units from imperial to metric.
+              </p>
+            </div>
+            <div class="project-img">
+              <a
+                href="https://mystifying-meitner-a92fa7.netlify.app"
+                target="_blank"
+                ><img src="/Images/Responsive-Weather-App.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h2>Mortgage Loan Calculator</h2>
+              <p>
+                This Mortgage Loan Calculator allows the user to input data to
+                get an estimate and breakdown of mortgage payment information.
+              </p>
+            </div>
+            <div class="project-img">
+              <a
+                href="https://wizardly-hugle-889424.netlify.app"
+                target="_blank"
+                ><img src="/Images/Mortgage-Loan-Calculator.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h2>Book Keeper</h2>
+              <p>
+                Book keeper is an application that lets the user keep track of
+                their favorite authors and information about the books they
+                read. The user can enter the title, publish date, number of
+                pages and a synopsis of the book.
+              </p>
+            </div>
+            <div class="project-img">
+              <a
+                href="https://my-library-app-dev.herokuapp.com/books"
+                target="_blank"
+                ><img src="/Images/library-web-app.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h2>Restaurant Landing Page</h2>
+              <p>
+                This project is a mock up of a landing page for the Tasty Burger
+                franchise. The landing page links to the live pages for Tasty
+                Burger. This site was built with HTML and CSS.
+              </p>
+            </div>
+            <div class="project-img">
+              <a
+                href="https://blissful-hodgkin-b0d0d5.netlify.app/"
+                target="_blank"
+                ><img src="/Images/restaurant-landing-page.png" alt=""
+              /></a>
+            </div>
+          </div>
+          <div class="project-item">
+            <div class="project-info">
+              <h2>Coming Soon</h2>
+              <p>
+                This project will be posted as soon as it has been decided upon
+                and built.
+              </p>
+            </div>
+            <div class="project-img">
+              <a href="#" target="_blank"
+                ><img src="/Images/Code_Monkey.png" alt="" /></a
+              ><!-- replace images with project thumbnails-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  End of Projects Section  -->
+
+    <!--  About Me Section  -->
+    <section id="about">
+      <div class="about container">
+        <div class="col-left">
+          <div class="about-img">
+            <img src="/Images/Code_Monkey.png" alt="" />
+          </div>
+        </div>
+        <div class="col-right">
+          <h1 class="section-title"><span>About</span> Me</h1>
+          <h2>Software Developer</h2>
+          <p>
+            I am a professional software developer with several years experience
+            in creating quality desktop and mobile applications, as well as full
+            stack web applications with database capabilities.
+          </p>
+          <a
+            href="https://www.linkedin.com/in/damon-deshon/"
+            target="_blank"
+            type="button"
+            class="cta"
+            aa
+            >View Resume</a
+          >
+        </div>
+      </div>
+    </section>
+    <!--  End of About Me Section  -->
+
+    <!--  Contact Section  -->
+    <section id="contact">
+      <div class="contact container">
+        <h1 class="section-title">Contact <span>Me</span></h1>
+        <div class="form-wrapper">
+          <form
+            method="POST"
+            action="contactform.php"
+            enctype="multipart/form-data"
+          >
+            <p>
+              <label for="Name">Name:</label>
+              <input type="text" name="name" required />
+            </p>
+            <p>
+              <label for="company">Company:</label>
+              <input type="text" name="company" />
+            </p>
+            <p>
+              <label for="email">Email Address:</label>
+              <input type="email" name="email" required />
+            </p>
+            <p>
+              <label for="phone">Phone Number:</label>
+              <input type="text" name="phone" required />
+            </p>
+            <p>
+              <label for="message">Message:</label>
+              <textarea
+                type="hidden"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </p>
+            <p>
+              <input type="submit" class="cta" value="Submit" />
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!--  End of Contact Section  -->
+
+    <!--  Footer Section  -->
+    <section id="footer">
+      <div class="footer container">
+        <div class="brand">
+          <h1><span>D</span>amon <span>D</span>eShon</h1>
+        </div>
+        <h2>Your Complete Software Solution</h2>
+        <div class="social-icon">
+          <div class="social-item">
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img src="https://img.icons8.com/nolan/64/facebook.png"
+            /></a>
+            <!-- Facebook -->
+          </div>
+          <div class="social-item">
+            <a href="https://www.twitter.com/" target="_blank"
+              ><img src="https://img.icons8.com/nolan/64/twitter-squared.png"
+            /></a>
+            <!-- Twitter -->
+          </div>
+          <div class="social-item">
+            <a href="https://www.instagram.com/" target="_blank"
+              ><img src="https://img.icons8.com/nolan/64/instagram-new.png"
+            /></a>
+            <!-- Instagram -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--  End of Footer Section  -->
+    }
+  </body>
+</html>
