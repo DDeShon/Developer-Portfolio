@@ -693,7 +693,7 @@ textarea {
   }
 
   #projects .all-projects .project-img {
-    height: 400px;
+    height: 100%;
   }
   /* End of Projects Section */
 
