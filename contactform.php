@@ -13,7 +13,7 @@ if(isset($_POST['email'])) {
     $txt = "You have received an email from ".$name.".\n\n".$message;
 
     mail($emailTo, $subject, $txt);
-    
+    console.log($emailTo, $subject, $txt);
     header("Location: index.php");
 }
 
