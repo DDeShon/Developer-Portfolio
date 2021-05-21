@@ -260,9 +260,8 @@
         <h1 class="section-title">Contact <span>Me</span></h1>
         <div class="form-wrapper">
           <form
-            method="POST"
-            action="contactform.php"
-            enctype="multipart/form-data"
+            method="post"
+            action="contactform.php""
           >
             <p>
               <label for="Name">Name:</label>
