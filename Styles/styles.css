@@ -398,6 +398,7 @@ p {
 }
 
 #services .service-bottom .icon {
+  display: inline;
   position: absolute;
   top: 20px;
   left: 20px;
