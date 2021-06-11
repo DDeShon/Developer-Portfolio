@@ -78,6 +78,9 @@
             <div class="icon">
             <img src="https://img.icons8.com/nolan/64/html-5.png"/>
             </div>
+            <div class="icon">
+            <img src="https://img.icons8.com/dusk/64/000000/css3.png"/>
+            </div>
             <h2>Web Developer</h2>
             <p>
               I have experience creating fully responsive and professional
