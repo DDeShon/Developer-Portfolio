@@ -252,7 +252,6 @@ p {
 }
 
 #hero .hero {
-  max-width: 1200px;
   margin: 0 auto;
   padding: 0 50px;
   justify-content: flex-start;
@@ -361,7 +360,6 @@ p {
 #services .services {
   flex-direction: column;
   text-align: center;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
 }
@@ -395,20 +393,26 @@ p {
   background-color: rgb(32, 32, 32);
   margin: 10px 5%;
   height: 600px;
+  min-width: 264px;
 }
 
-#services .service-bottom .icon {
-  display: inline;
+.icon-container {
   position: absolute;
-  top: 20px;
-  left: 20px;
-  height: 75px;
-  width: 75px;
+  top: 30px;
+  left: 30px;
+  display: flex;
+  width: 100%;
+}
+
+.icon-container .icon {
+  height: 64px;
+  width: 64px;
   margin-bottom: 20px;
-  float: left;
 }
 
 #services .service-item h2 {
+  position: absolute;
+  top: 120px;
   color: white;
   font-size: 2rem;
   margin: 20px 0;
@@ -417,7 +421,7 @@ p {
 }
 
 #services .service-item p {
-  margin-top: 20px;
+  margin-top: 130px;
   color: white;
   text-align: left;
 }
@@ -426,7 +430,6 @@ p {
 /* Projects Section */
 #projects .projects {
   flex-direction: column;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 100px 0;
 }
@@ -516,7 +519,6 @@ p {
 #about .about {
   flex-direction: column-reverse;
   text-align: center;
-  max-width: 1200px;
   margin: 0 auto;
   padding: 100px 20px;
 }
