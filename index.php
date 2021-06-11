@@ -76,7 +76,7 @@
         <div class="service-bottom">
           <div class="service-item">
             <div class="icon">
-              <img src="https://img.icons8.com/nolan/64/web.png" />
+            <img src="https://img.icons8.com/nolan/64/html-5.png"/>
             </div>
             <h2>Web Developer</h2>
             <p>
