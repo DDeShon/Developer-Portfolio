@@ -600,6 +600,10 @@ textarea {
   margin: 10px 0;
 }
 
+#footer p {
+  color: white;
+}
+
 #footer .social-icon {
   display: flex;
   margin-bottom: 30px;
