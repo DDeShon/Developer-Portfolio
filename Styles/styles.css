@@ -229,7 +229,7 @@ p {
 
 /* Hero Section */
 #hero {
-  background-image: url(/Images/Code_Monkey.png);
+  background-image: url(/Images/code.png);
   max-height: 960px;
   max-width: 100%;
   background-size: cover;
