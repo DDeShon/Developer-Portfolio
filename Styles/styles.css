@@ -393,7 +393,7 @@ p {
   background-color: rgb(32, 32, 32);
   margin: 10px 5%;
   height: 600px;
-  min-width: 264px;
+  min-width: 310px;
 }
 
 .icon-container {
@@ -401,7 +401,6 @@ p {
   top: 30px;
   left: 30px;
   display: flex;
-  width: 100%;
 }
 
 .icon-container .icon {
